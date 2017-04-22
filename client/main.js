@@ -5,8 +5,7 @@ import ImageList from './components/image_list';
 const App = () => {
   return (
     <div>
-      React App #2
-    <h1>    <ImageList/>  </h1>
+      <ImageList/>  
     </div>
   );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
+import ImageDetail from './image_detail';
 
 const ImageList = () => {
         return (
           <ul>
-            <li> Image Detail 2</li>
+           <ImageDetail />
           </ul>
         );
 };
