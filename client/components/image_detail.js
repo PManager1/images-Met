@@ -1,9 +1,12 @@
 import React from 'react';
 
 
-const ImageDetail = () => {
+const ImageDetail = (props) => {
         return (
-          <div> Image Detail</div>
+          <li>
+            <img src="https://dummyimage.com/600x400" />
+            { props.image.title }
+          </li>
         );
 };
 
