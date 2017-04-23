@@ -3,13 +3,13 @@ import ImageDetail from './image_detail';
 import axios from 'axios';
 
 
-axios.get('https://api.imgur.com/3/gallery/hot/viral/0')
-  .then(function (response) {
-    console.log(response);
-  })
-  .catch(function (error) {
-    console.log(error);
-  });
+// axios.get('https://api.imgur.com/3/gallery/hot/viral/0')
+//   .then(function (response) {
+//     console.log(response);
+//   })
+//   .catch(function (error) {
+//     console.log(error);
+//   });
 
 
 const IMAGES = [
