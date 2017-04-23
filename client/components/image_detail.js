@@ -4,7 +4,7 @@ import React from 'react';
 const ImageDetail = (props) => {
         return (
           <li>
-            <img src="https://dummyimage.com/600x400" />
+            <img src={props.image.link} />
             { props.image.title }
           </li>
         );
